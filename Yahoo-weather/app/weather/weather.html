@@ -1,0 +1,61 @@
+﻿
+
+<div class="panel panel-default">
+    <div class="panel-body text-center weather">
+        <p style="font-size:200%">
+            <i ng-show="weather.forecast.item.condition.code == '0'" class="wi wi-tornado"></i>
+            <i ng-show="weather.forecast.item.condition.code == '1'" class="wi wi-storm-showers"></i>
+            <i ng-show="weather.forecast.item.condition.code == '2'" class="wi wi-tornado"></i>
+            <i ng-show="weather.forecast.item.condition.code == '3'" class="wi wi-thunderstorm"></i>
+            <i ng-show="weather.forecast.item.condition.code == '4'" class="wi wi-thunderstorm"></i>
+            <i ng-show="weather.forecast.item.condition.code == '5'" class="wi wi-snow"></i>
+            <i ng-show="weather.forecast.item.condition.code == '6'" class="wi wi-rain-mix"></i>
+            <i ng-show="weather.forecast.item.condition.code == '7'" class="wi wi-rain-mix"></i>
+            <i ng-show="weather.forecast.item.condition.code == '8'" class="wi wi-sprinkle"></i>
+            <i ng-show="weather.forecast.item.condition.code == '9'" class="wi wi-sprinkle"></i>
+            <i ng-show="weather.forecast.item.condition.code == '10'" class="wi wi-hail"></i>
+            <i ng-show="weather.forecast.item.condition.code == '11'" class="wi wi-showers"></i>
+            <i ng-show="weather.forecast.item.condition.code == '12'" class="wi wi-showers"></i>
+            <i ng-show="weather.forecast.item.condition.code == '13'" class="wi wi-snow"></i>
+            <i ng-show="weather.forecast.item.condition.code == '14'" class="wi wi-storm-showers"></i>
+            <i ng-show="weather.forecast.item.condition.code == '15'" class="wi wi-snow"></i>
+            <i ng-show="weather.forecast.item.condition.code == '16'" class="wi wi-snow"></i>
+            <i ng-show="weather.forecast.item.condition.code == '17'" class="wi wi-hail"></i>
+            <i ng-show="weather.forecast.item.condition.code == '18'" class="wi wi-hail"></i>
+            <i ng-show="weather.forecast.item.condition.code == '19'" class="wi wi-cloudy-gusts"></i>
+            <i ng-show="weather.forecast.item.condition.code == '20'" class="wi wi-fog"></i>
+            <i ng-show="weather.forecast.item.condition.code == '21'" class="wi wi-fog"></i>
+            <i ng-show="weather.forecast.item.condition.code == '22'" class="wi wi-fog"></i>
+            <i ng-show="weather.forecast.item.condition.code == '23'" class="wi wi-cloudy-gusts"></i>
+            <i ng-show="weather.forecast.item.condition.code == '24'" class="wi wi-cloudy-windy"></i>
+            <i ng-show="weather.forecast.item.condition.code == '25'" class="wi wi-thermometer"></i>
+            <i ng-show="weather.forecast.item.condition.code == '26'" class="wi wi-cloudy"></i>
+            <i ng-show="weather.forecast.item.condition.code == '27'" class="wi wi-night-cloudy"></i>
+            <i ng-show="weather.forecast.item.condition.code == '28'" class="wi wi-day-cloudy"></i>
+            <i ng-show="weather.forecast.item.condition.code == '29'" class="wi wi-night-cloudy"></i>
+            <i ng-show="weather.forecast.item.condition.code == '30'" class="wi wi-day-cloudy"></i>
+            <i ng-show="weather.forecast.item.condition.code == '31'" class="wi wi-night-clear"></i>
+            <i ng-show="weather.forecast.item.condition.code == '32'" class="wi wi-day-sunny"></i>
+            <i ng-show="weather.forecast.item.condition.code == '33'" class="wi wi-night-clear"></i>
+            <i ng-show="weather.forecast.item.condition.code == '34'" class="wi wi-day-sunny-overcast"></i>
+            <i ng-show="weather.forecast.item.condition.code == '35'" class="wi wi-hail"></i>
+            <i ng-show="weather.forecast.item.condition.code == '36'" class="wi wi-day-sunny"></i>
+            <i ng-show="weather.forecast.item.condition.code == '37'" class="wi wi-thunderstorm"></i>
+            <i ng-show="weather.forecast.item.condition.code == '38'" class="wi wi-thunderstorm"></i>
+            <i ng-show="weather.forecast.item.condition.code == '39'" class="wi wi-thunderstorm"></i>
+            <i ng-show="weather.forecast.item.condition.code == '40'" class="wi wi-storm-showers"></i>
+            <i ng-show="weather.forecast.item.condition.code == '41'" class="wi wi-snow"></i>
+            <i ng-show="weather.forecast.item.condition.code == '42'" class="wi wi-snow"></i>
+            <i ng-show="weather.forecast.item.condition.code == '43'" class="wi wi-snow"></i>
+            <i ng-show="weather.forecast.item.condition.code == '44'" class="wi wi-cloudy"></i>
+            <i ng-show="weather.forecast.item.condition.code == '45'" class="wi wi-lightning"></i>
+            <i ng-show="weather.forecast.item.condition.code == '46'" class="wi wi-snow"></i>
+            <i ng-show="weather.forecast.item.condition.code == '47'" class="wi wi-thunderstorm"></i>
+            <i ng-show="weather.forecast.item.condition.code == '3200'" class="wi wi-cloud"></i>
+            <!--<i ng-show="49 == 49" class="wi wi-cloud"></i>-->
+        </p>
+        <p class="wt" id="conditions">{{ weather.forecast.item.condition.text }}</p>
+        <h2 class="wt" id="temp">{{ weather.forecast.item.condition.temp }}&deg;F</h2>
+        <h4 class="wt" id="city">Tampa, FL</h4>
+    </div>
+</div>
